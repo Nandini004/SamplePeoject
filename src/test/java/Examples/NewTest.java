@@ -20,8 +20,7 @@ public class NewTest {
   @Test
   public void f1() {
 	  driver.get("http://www.guru99.com/selenium-tutorial.html");  
-		String title = driver.getTitle();				 
-		Assert.assertTrue(title.contains("Free Selenium Tutorials")); 
+		String title = driver.getTitle();				  
   }
   @BeforeTest
   public void beforeTest() {
