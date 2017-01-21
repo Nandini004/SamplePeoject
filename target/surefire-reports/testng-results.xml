@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="103630" started-at="2016-06-21T17:14:21Z" finished-at="2016-06-21T17:16:05Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="103630" started-at="2016-06-21T17:14:21Z" finished-at="2016-06-21T17:16:05Z">
+      <class name="Eamples.secondTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:Eamples.secondTest@67b64c45]" name="f" duration-ms="0" started-at="2016-06-21T22:46:04Z" finished-at="2016-06-21T22:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Eamples.secondTest -->
+      <class name="Examples.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Examples.NewTest@4411d970]" name="beforeTest" is-config="true" duration-ms="3093" started-at="2016-06-21T22:44:21Z" finished-at="2016-06-21T22:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Eamples.secondTest@67b64c45]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-06-21T22:44:25Z" finished-at="2016-06-21T22:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Examples.NewTest@4411d970]" name="f" duration-ms="99851" started-at="2016-06-21T22:44:25Z" finished-at="2016-06-21T22:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Examples.NewTest@4411d970]" name="afterTest" is-config="true" duration-ms="669" started-at="2016-06-21T22:46:04Z" finished-at="2016-06-21T22:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Eamples.secondTest@67b64c45]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-06-21T22:46:05Z" finished-at="2016-06-21T22:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Examples.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
